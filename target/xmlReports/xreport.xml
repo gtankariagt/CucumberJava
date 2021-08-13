@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.281">
+    <testcase classname="To test Login functionality" name="Verify the login Page with title" time="17.784">
+        <system-out>
+            <![CDATA[Given open the browser......................................................passed
+Given Open the url "https://www.icicibank.com/".............................passed
+Then Verify the page title..................................................passed
+Then Close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

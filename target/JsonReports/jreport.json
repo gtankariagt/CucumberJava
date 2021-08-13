@@ -1,0 +1,83 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-13T06:42:03.587Z",
+        "line": 6,
+        "name": "Verify the login Page with title",
+        "description": "",
+        "id": "to-test-login-functionality;verify-the-login-page-with-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5633004600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open the browser",
+            "match": {
+              "location": "StepDefinition.CommonStep.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11755849600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open the url \"https://www.icicibank.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.icicibank.com/",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinition.CommonStep.open_the_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3003500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify the page title",
+            "match": {
+              "location": "StepDefinition.CommonStep.Verify_the_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 287814000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "StepDefinition.CommonStep.Close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "To test Login functionality",
+    "description": "",
+    "id": "to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
